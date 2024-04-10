@@ -19,11 +19,11 @@ const Home = () => {
   const calculateProgress = () => {
     switch (step) {
       case 1:
-        return 20;
+        return 10;
       case 2:
-        return 30;
+        return 20;
       case 3:
-        return 40;
+        return 35;
       case 4:
         return 60;
       case 5:
